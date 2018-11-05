@@ -59,7 +59,7 @@ $(document).ready(function(){
   $(".randomize").click(function(){
   
     //Parse heroes-list.JSON
-    $.getJSON("heroes-list.json", function(heroList) {
+    $.getJSON("https://mdboticano.github.io/hero-randomizer/heroes-list.JSON", function(heroList) {
       //Get heroList length
       maxLength = heroList.hero.length;
       console.log(maxLength);
