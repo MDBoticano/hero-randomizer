@@ -1,0 +1,85 @@
+{ "hero" : [
+  { "heroName" : "Ana",
+    "heroClass" : "Healer"},
+
+  { "heroName" : "Brigitte",
+    "heroClass" : "Healer"},
+
+  { "heroName" : "Lucio",
+    "heroClass" : "Healer"},
+
+  { "heroName" : "Mercy",
+    "heroClass" : "Healer"},
+
+  { "heroName" : "Moira",
+    "heroClass": "Healer"},
+
+  { "heroName" : "Zenyatta",
+    "heroClass": "Healer"},
+
+  { "heroName" : "D.va",
+    "heroClass" : "Tank"},
+ 
+  { "heroName" : "Orisa",
+    "heroClass" : "Tank"},
+
+  { "heroName" : "Reinhardt",
+    "heroClass": "Tank"},
+
+  { "heroName" : "Roadhog",
+    "heroClass": "Tank"},
+
+  { "heroName" : "Winston",
+    "heroClass": "Tank"},
+
+  { "heroName" : "Wrecking Ball",
+    "heroClass": "Tank"},
+
+  { "heroName" : "Zarya",
+    "heroClass": "Tank"},
+
+  { "heroName" : "Bastion",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Doomfist",
+    "heroClass" : "Damage"},
+  
+  { "heroName" : "Genji",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Hanzo",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Junkrat",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "McCree",
+    "heroClass" : "Damage"},
+  
+  { "heroName" : "Mei",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Pharah",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Reaper",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Soldier 76",
+    "heroClass" : "Damage"},
+  
+  { "heroName" : "Sombra",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Symmetra",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Torbjörn",
+    "heroClass" : "Damage"},
+
+  { "heroName" : "Tracer",
+    "heroClass" : "Damage"},
+  
+  { "heroName" : "Widowmaker",
+    "heroClass" : "Damage"}
+]}
