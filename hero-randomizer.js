@@ -10,6 +10,9 @@ $(document).ready(function(){
   var heroImgUrl = "";
 
   var classCheck = false;
+
+  var lastNum = -1;
+
   
   // Toggles healers
   $(".btnHealer").click(function(){
@@ -59,15 +62,23 @@ $(document).ready(function(){
   // Clicking the randomize button starts randomize process
   $(".randomize").click(function(){
   
-    //Parse heroes-list.JSON
+    // Parse heroes-list.JSON
     $.getJSON("https://mdboticano.github.io/hero-randomizer/heroes-list.JSON", function(heroList) {
-      //Get heroList length
+      // Get heroList length
       maxLength = heroList.hero.length;
-      console.log(maxLength);
+      //console.log(maxLength);
       
-      while (!classCheck) {
-        //Randomizer: generate random number and converts it into an array index
+      // Class Filter Check
+      while (!classCheck ) {
+        // Randomizer: generate random number and converts it into an array index
         randomNum = Math.floor(Math.random() * (maxLength - minLength) + minLength); // generates random # to select a hero
+
+        // Repeat checker
+        if (randomNum == lastNum) {
+          //console.log("oops, repeat number!");
+          continue; // ends current iteration
+        }
+        lastNum = randomNum;
 
         // gets heroName from hero at random num index
         randomHeroName = heroList.hero[randomNum].heroName;
@@ -78,7 +89,7 @@ $(document).ready(function(){
         console.log(randomHeroClass); // prints out randomized hero's class
 
         // check if randomHeroClass is a valid class
-        //if not, generate another hero
+        // if not, generate another hero
         for (var i = 0; i < overwatchClasses.length; i++){
           // checks toggle flag
           if (overwatchClasses[i]==1){
@@ -93,20 +104,17 @@ $(document).ready(function(){
       // Print out suggested hero name      
       $(".heroName").html(randomHeroName);
 
-      //Replace image with hero image
-      // gets heroImg from hero at random num index
+      // track last hero
+      lastHero = randomHeroName;
+      //console.log(lastHero);
+
+      // Replace image with hero image
       heroImgUrl = heroList.hero[randomNum].heroImg;
-      // console.log(heroImgUrl); // prints out randomized hero's img url
       $(".heroImg").attr('src',heroImgUrl);
 
       // changes class back to null so that we can reroll for the same role
-      classCheck = false;
+      classCheck = false;    
       
     }); // end randomizer change name
   });  // end button click
-
- 
-
-
-
 });
