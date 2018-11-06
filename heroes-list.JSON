@@ -1,7 +1,7 @@
 { "hero" : [
   { "heroName" : "Ana",
     "heroClass" : "Healer",
-    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/ana-concept.jpg"},
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/ana-screenshot-004.jpg"},
 
   { "heroName" : "Brigitte",
     "heroClass" : "Healer",
@@ -53,7 +53,7 @@
 
   { "heroName" : "Ashe",
     "heroClass" : "Damage",
-    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/ashe-concept.jpg"},
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/ashe-screenshot-003.jpg"},
 
     { "heroName" : "Bastion",
     "heroClass" : "Damage",
@@ -97,7 +97,7 @@
   
   { "heroName" : "Sombra",
     "heroClass" : "Damage",
-    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/sombra-concept.jpg"},
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/sombra-concept-a4ff40a617d43989d524431f91a24533d89ed17d613d68c93d56de5f4ce6b4cfd8e748bbfaa00e06058f63f9761a99f3401acc53527d0576514c84f915680ed0.jpg"},
 
   { "heroName" : "Symmetra",
     "heroClass" : "Damage",

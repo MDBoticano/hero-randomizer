@@ -7,6 +7,7 @@ $(document).ready(function(){
   var maxLength = 0;
   var overwatchClasses = [1, 1, 1]; 
   var overwatchClassNames= ["Healer", "Tank", "Damage"];
+  var heroImgUrl = "";
 
   var classCheck = false;
   
@@ -76,6 +77,10 @@ $(document).ready(function(){
         randomHeroClass = heroList.hero[randomNum].heroClass;
         console.log(randomHeroClass); // prints out randomized hero's class
 
+        // gets heroImg from hero at random num index
+        heroImgUrl = heroList.hero[randomNum].heroImg;
+        // console.log(heroImgUrl); // prints out randomized hero's img url
+
         // check if randomHeroClass is a valid class
         //if not, generate another hero
         for (var i = 0; i < overwatchClasses.length; i++){
@@ -93,8 +98,7 @@ $(document).ready(function(){
       $(".heroName").html(randomHeroName);
 
       //Replace image with hero image
-      var heroImgUrl = heroList.hero[randomHeroName].heroImg;
-      console.log(heroImgUrl);
+      //console.log(heroImgUrl);
       $(".heroImg").attr('src',heroImgUrl);
 
       // changes class back to null so that we can reroll for the same role
