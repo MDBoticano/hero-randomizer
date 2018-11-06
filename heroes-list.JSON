@@ -1,85 +1,117 @@
 { "hero" : [
   { "heroName" : "Ana",
-    "heroClass" : "Healer"},
+    "heroClass" : "Healer",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/ana-concept.jpg"},
 
   { "heroName" : "Brigitte",
-    "heroClass" : "Healer"},
+    "heroClass" : "Healer",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/brigitte-concept.jpg"},
 
   { "heroName" : "Lucio",
-    "heroClass" : "Healer"},
+    "heroClass" : "Healer",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/lucio-concept.jpg"},
 
   { "heroName" : "Mercy",
-    "heroClass" : "Healer"},
+    "heroClass" : "Healer",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/mercy-concept.jpg"},
 
   { "heroName" : "Moira",
-    "heroClass": "Healer"},
+    "heroClass": "Healer",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/moira-concept.jpg"},
 
   { "heroName" : "Zenyatta",
-    "heroClass": "Healer"},
+    "heroClass": "Healer",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/zenyatta-concept.jpg"},
 
   { "heroName" : "D.va",
-    "heroClass" : "Tank"},
+    "heroClass" : "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/dva-concept.jpg"},
  
   { "heroName" : "Orisa",
-    "heroClass" : "Tank"},
+    "heroClass" : "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/orisa-concept.jpg"},
 
   { "heroName" : "Reinhardt",
-    "heroClass": "Tank"},
+    "heroClass": "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/reinhardt-concept.jpg"},
 
   { "heroName" : "Roadhog",
-    "heroClass": "Tank"},
+    "heroClass": "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/roadhog-concept.jpg"},
 
   { "heroName" : "Winston",
-    "heroClass": "Tank"},
+    "heroClass": "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/winston-concept.jpg"},
 
   { "heroName" : "Wrecking Ball",
-    "heroClass": "Tank"},
+    "heroClass": "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/wrecking-ball-concept.jpg"},
 
   { "heroName" : "Zarya",
-    "heroClass": "Tank"},
+    "heroClass": "Tank",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/zarya-concept.jpg"},
 
-  { "heroName" : "Bastion",
-    "heroClass" : "Damage"},
+  { "heroName" : "Ashe",
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/ashe-concept.jpg"},
+
+    { "heroName" : "Bastion",
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/bastion-concept.jpg"},
 
   { "heroName" : "Doomfist",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/doomfist-concept.jpg"},
   
   { "heroName" : "Genji",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/genji-concept.jpg"},
 
   { "heroName" : "Hanzo",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/hanzo-concept.jpg"},
 
   { "heroName" : "Junkrat",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/junkrat-concept.jpg"},
 
   { "heroName" : "McCree",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/mccree-concept.jpg"},
   
   { "heroName" : "Mei",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/mei-concept.jpg"},
 
   { "heroName" : "Pharah",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/pharah-concept.jpg"},
 
   { "heroName" : "Reaper",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/reaper-concept.jpg"},
 
   { "heroName" : "Soldier 76",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/soldier-76-concept.jpg"},
   
   { "heroName" : "Sombra",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/sombra-concept.jpg"},
 
   { "heroName" : "Symmetra",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/symmetra-concept.jpg"},
 
   { "heroName" : "Torbjörn",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/torbjorn-concept.jpg"},
 
   { "heroName" : "Tracer",
-    "heroClass" : "Damage"},
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/tracer-concept.jpg"},
   
   { "heroName" : "Widowmaker",
-    "heroClass" : "Damage"}
+    "heroClass" : "Damage",
+    "heroImg": "https://d1u1mce87gyfbn.cloudfront.net/media/artwork/widowmaker-concept.jpg"}
 ]}
