@@ -13,6 +13,9 @@ $(document).ready(function(){
 
   var lastNum = -1;
 
+  var lastSelected = "marlo";
+  var currentSelected = "daniel";
+
   
   // Toggles healers
   $(".btnHealer").click(function(){
@@ -69,7 +72,7 @@ $(document).ready(function(){
       //console.log(maxLength);
       
       // Class Filter Check
-      while (!classCheck ) {
+      while (!classCheck) {
         // Randomizer: generate random number and converts it into an array index
         randomNum = Math.floor(Math.random() * (maxLength - minLength) + minLength); // generates random # to select a hero
 
@@ -82,11 +85,11 @@ $(document).ready(function(){
 
         // gets heroName from hero at random num index
         randomHeroName = heroList.hero[randomNum].heroName;
-        console.log(randomHeroName); // prints out the randomized hero's name
+        //console.log(randomHeroName); // prints out the randomized hero's name
       
         // gets heroClass from hero at random num index
         randomHeroClass = heroList.hero[randomNum].heroClass;
-        console.log(randomHeroClass); // prints out randomized hero's class
+        //console.log(randomHeroClass); // prints out randomized hero's class
 
         // check if randomHeroClass is a valid class
         // if not, generate another hero
@@ -95,7 +98,13 @@ $(document).ready(function(){
           if (overwatchClasses[i]==1){
             // checks if that class is valid
             if (overwatchClassNames[i] == randomHeroClass) { 
-              classCheck = true;
+              // check for repeats
+              currentSelected = randomHeroName;
+              if (lastSelected != currentSelected) {
+                lastSelected = currentSelected; 
+                console.log("You got: " + lastSelected);
+                classCheck = true;
+              }
             }
           }
         }
@@ -103,10 +112,6 @@ $(document).ready(function(){
 
       // Print out suggested hero name      
       $(".heroName").html(randomHeroName);
-
-      // track last hero
-      lastHero = randomHeroName;
-      //console.log(lastHero);
 
       // Replace image with hero image
       heroImgUrl = heroList.hero[randomNum].heroImg;
