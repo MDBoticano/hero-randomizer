@@ -30,7 +30,7 @@ div {
   background-color: grey;
 }
 
-img .heroImg {
+.heroImg {
   max-height: 450px;
   max-width: 450px;
   height: auto;
