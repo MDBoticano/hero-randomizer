@@ -94,6 +94,7 @@ $(document).ready(function(){
 
       //Replace image with hero image
       var heroImgUrl = heroList.hero[randomHeroName].heroImg;
+      console.log(heroImgUrl);
       $(".heroImg").attr('src',heroImgUrl);
 
       // changes class back to null so that we can reroll for the same role
