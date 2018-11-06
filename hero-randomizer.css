@@ -29,3 +29,10 @@ div {
   /* background-image: linear-gradient(rgb(83, 161, 216), rgb(15, 69, 105)); */
   background-color: grey;
 }
+
+.heroImg {
+  max-height: 450px;
+  max-width: 450px;
+  height: auto;
+  width: auto;
+}
