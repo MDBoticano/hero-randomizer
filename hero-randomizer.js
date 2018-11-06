@@ -98,7 +98,6 @@ $(document).ready(function(){
       $(".heroName").html(randomHeroName);
 
       //Replace image with hero image
-      //console.log(heroImgUrl);
       $(".heroImg").attr('src',heroImgUrl);
 
       // changes class back to null so that we can reroll for the same role
